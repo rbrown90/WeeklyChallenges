@@ -54,7 +54,7 @@ namespace ChallengesWithTestsMark8
                 isPrime = false;
             }
 
-            return false;
+            return isPrime;
         }
 
         public int IndexOfLastUniqueLetter(string str)

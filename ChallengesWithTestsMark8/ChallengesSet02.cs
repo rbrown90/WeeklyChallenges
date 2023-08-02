@@ -23,7 +23,7 @@ namespace ChallengesWithTestsMark8
             }
         }
 
-        public bool IsNumberEven(int number)
+        public static bool IsNumberEven(int number)
         {
             if (number % 2 == 0)
             {
@@ -62,7 +62,7 @@ namespace ChallengesWithTestsMark8
             return numbers.Min() + numbers.Max();
         }
 
-        public int GetLengthOfShortestString(string str1, string str2)
+        public static int GetLengthOfShortestString(string str1, string str2)
         {
             if (str1.Length < str2.Length)
             {
