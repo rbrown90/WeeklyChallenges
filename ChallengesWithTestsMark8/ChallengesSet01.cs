@@ -37,6 +37,7 @@ namespace ChallengesWithTestsMark8
                 return number2;
             }
         }
+
         public long Multiply(long factor1, long factor2)
         {
             return factor1 * factor2;
@@ -45,13 +46,14 @@ namespace ChallengesWithTestsMark8
         public string GetGreeting(string nameOfPerson)
         {
           if (nameOfPerson == "")
-            {
+          {
                 return "Hello!";
-            }
+          }
           else
-            {
+          {
                 return $"Hello, {nameOfPerson}!";
-            }
+          }
+
         }
 
         public string GetHey()
