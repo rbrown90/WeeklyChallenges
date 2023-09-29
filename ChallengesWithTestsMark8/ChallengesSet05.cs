@@ -55,7 +55,7 @@ namespace ChallengesWithTestsMark8
                     sum += numbers[i];
                 }
             }
-            return 0;
+            return sum;
         }
 
         public string TurnWordsIntoSentence(string[] words)
@@ -93,7 +93,7 @@ namespace ChallengesWithTestsMark8
 
             List<double> everyFourth = new List<double>();
 
-            for (var i = 3; i < elements.Count; i = +4)
+            for (var i = 3; i < elements.Count; i += 4)
             {
                 everyFourth.Add(elements[i]);
             }
@@ -105,7 +105,7 @@ namespace ChallengesWithTestsMark8
         {
              for (int i = 0; i < nums.Length; i++)
              {
-                 for(int j = 1 + 1; j < nums.Length; j++)
+                 for(int j = i + 1; j < nums.Length; j++)
                  {
                      if (nums[i] + nums[j] == targetNumber)
                      {
@@ -113,6 +113,7 @@ namespace ChallengesWithTestsMark8
                      }
                  }
              }
+
              return false;
         }
     }

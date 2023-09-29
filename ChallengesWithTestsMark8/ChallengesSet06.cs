@@ -68,7 +68,7 @@ namespace ChallengesWithTestsMark8
 
                 for(int j = 0; j < str.Length; j++)
                 {
-                    if (str[i] == str[j] && i!= j)
+                    if(str[i] == str[j] && i != j)
                     {
                         uindex = false;
                     }
@@ -76,7 +76,7 @@ namespace ChallengesWithTestsMark8
 
                 if(uindex == true)
                 {
-                    index = 1;
+                    index = i;
                 }
             }
 
