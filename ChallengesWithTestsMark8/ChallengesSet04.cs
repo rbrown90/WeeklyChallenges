@@ -113,7 +113,7 @@ namespace ChallengesWithTestsMark8
 
         public int Factorial(int number)
         {
-           if (number == 0)
+            if (number == 0)
             {
                 return 1;
             }
